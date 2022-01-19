@@ -1,103 +1,144 @@
 <!DOCTYPE html>
 <html>
-    <header></header>
-    <body>
-        <header>
-            <h1>My Portofolio</h1>
-            <p>Saya itu ganteng</p>
-            <nav>
-                <ul>
-                    <li><a href="#pendidikan">Pendidikan</a></li>
-                    <li><a href="#experience">Pengalaman</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                </ul>
+    <head>
+        <title>My Portofolio</title>
+        <style>
+            .box {
+                width: full;
+                padding: 20px;
+                background-color: black;
+            }
+        </style>
+        <div class="box">
+            <nav align="center">
+                <style>
+                    .hyperlink {
+                        text-decoration: none;
+                        color: white;
+                        margin: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                </style>
+                <a href="#pendidikan" class="hyperlink">Pendidikan</a>
+                <a href="#experience" class="hyperlink">Pengalaman</a>
+                <a href="#skill" class="hyperlink">Skill</a>
+                <a href="#sosmed" class="hyperlink">Sosial Media</a>
             </nav>
-        </header>
-
-        <main>
-            <section>
-                <article>
-                    <h2>about me</h2>
-                    <img src="assetgambar/Photo on 28-09-21 at 11.20.jpg" width="200px">
-                    <p>Anak ke 2 dari 3 bersaudara</p>
-                    <head>
-                        <title>Quotes of the day</title>
-                        <style>
-                            .quotes {
-                                width: 1.5cm;
-                                border: cyan;
-                                box-shadow: darkblue;
-                                padding: 8px 12px;
-                                background-color: darkgray;
-                            }
-                        </style>
-                    </head>
-                </article>
-                <body>
-                    <div class="quotes">
-                        <p>Apa kek</p>
-                    </div>
-                </body>
-            </section>
-            <article>
-
-            </article>
-            <footer>
-                
-            </footer>
-
-        <main>
-            <article>
-                <header>
-                    <h2 id="pendidikan">Education</h2>
-                </header>
-                <p>
-                    <pre style="font-family: sans-serif;">   Coba Coba</pre>
-                    Dulu saya cuma coba coba, sekarang ketagihan
+        </div>
+    </head>
+    <body>
+        <article>
+            <header align="center">
+                <h1 style="font-size: xxx-large;margin: 1.2cm;">
+                    Hello<br>
+                    I'm Noval<br>
+                    Adiprasetya<br>
+                </h1>
+                <p style="font-size: larger; font-family: Arial, Helvetica, sans-serif;" align="center">
+                    Android Developer<br>
+                    Web Developer<br>
+                    UI/UX Designer
                 </p>
-                <p>
-                    <h4>Jenjang Pendidikan</h4>
-                    <ul>
-                        <li>SMP</li>
-                        <li>SMK
-                            <p>SMK IDN memiliki banyak kegiatan yang sangat melatih siswa siswanya <strong>IDN Mengajar</strong></p>
-                            <article>
-                                <h5>IDN Mengajar</h5>
-                                <figure>
-                                    <img src="assetgambar/idn_mengajar.jpg" width="100px">
-                                </figure>
-                                <p>IDN mengajar ini melatih siswa untuk berbicara di depan umum (public speaking)</p>
-                            </article>
-                            <article>
-                                <h5>IDN Seminar</h5>
-                                <figure>
-                                    <img src="assetgambar/idn_seminar.jpg" width="100px">
-                                </figure>
-                                <p>IDN Seminar ini menyampain berbagai materi seperti IT, Diniyah, English, maupun Tahfidz</p>
-                            </article>
-                        </li>
-                    </ul>
-                </p>
-                <footer>
-                    <p>bagikan artikel dengan medsos</p>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/">linkedin</a></li>
-                        <li><a href="https://www.twitter.com/">twitter</a></li>
-                        <li><a href="https://www.facebook.com/">facebook</a></li>
-                    </ul>
-                </footer>
-            </article>
-        </main>
-        <main>
-            <header>
-                <h2 id="experience">Experience</h2>
             </header>
-            <article>
+            <body align="center">
+                <style>
+                    .box2 {
+                        width: 600px;
+                        align-items: center;
+                        padding: 1cm;
+                        background-color: rgb(44, 44, 44);
+                        margin: auto;
+                    }
+                </style>
+                <article align="center" class="box2" style="margin-top: 1cm; margin-bottom: 1cm;">
+                    <style>
+                        .fontAboutme {
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: white;
+                        }
+                    </style>
+                    <img src="assetgambar/pp_white.png" width="200px">
+                    <h3 align="center" class="fontAboutme">About Me</h3>
+                    <p style="font-size: larger;" class="fontAboutme" >Sangat termotivasi untuk mengembangkan kemampuan secara profesional. Saya yakin dengan kemampuan saya untuk menghasilkan ide menarik dalam pengembangan aplikasi dan website.</p>
+                </article>
 
-            </article>
-        </main>
-        <footer>
-            &copy; 2022, IDN Boarding School
-        </footer>
+                <article>
+                    <h1 id="pendidikan" style="font-size: xx-large;">Pendidikan</h1>
+                    <table border="3" align="center" >
+                        <tr>
+                            <th colspan="2">Jenjang Pendidikan</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">SMP</td>
+                            <td>SMP Ibnu Hajar Boarding School</td>
+                        </tr>
+                        <tr>
+                            <td>2017 - 2021</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">SMK</td>
+                            <td>SMK IDN Boarding Schook</td>
+                        </tr>
+                        <tr>
+                            <td>2021 - Now</td>
+                        </tr>
+                    </table>
+                </article>
+                
+                <article>
+                    <h1 id="experience" style="font-size: xx-large; margin-top: 60px;">Pengalaman</h1>
+                    <h3>Aplikasi Android & UI/UX Design</h3>
+                    <li>App School</li>
+                    <li>Food INC</li>
+                    <li>News</li>
+                    <li>Covid Info</li>
+                    <li>Kalkulator Bangun Datar</li>
+                    <li>Doa & Dzikir</li>
+                    <li>Recipes Catalogue</li>
+                    <li>Portofolio App</li>
+                </article>
+
+                <article>
+                    <h1 id="skill" style="font-size: xx-large; margin-top: 60px;">Skill</h1>
+                    <table border="3" align="center">
+                        <tr>
+                            <th>Androi Studio</th>
+                            <th>Visual Studio Code</th>
+                            <th>Fima</th>
+                        </tr>
+                        <tr>
+                            <td>Kotlin</td>
+                            <td>Java Script</td>
+                            <td>UI</td>
+                        </tr>
+                        <tr>
+                            <td>XML</td>
+                            <td>HTML</td>
+                            <td>UX</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>PHP</td>
+                            <td>Prototype</td>
+                        </tr>
+                    </table>
+                </article>
+
+                <article>
+                    <style>
+                        .sosmed {
+                            color: rgb(95, 95, 95);
+                            text-decoration: none;
+                        }
+                    </style>
+                    <h1 id="sosmed" style="font-size: xx-large; margin-top: 60px;">Sosial Media</h1>
+                    <li><a href="https://www.linkedin.com/in/noval-adiprasetya/" class="sosmed">Linkedin</a></li>
+                    <li><a href="https://github.com/NovalAdi" class="sosmed">Github</a></li>
+                </article>
+            </body>
+        </article>
     </body>
+    <footer>
+        <h3 class="box" style="color: white;">&copy; 2022, Noval Adiprasetya</h3>
+    </footer>
 </html>
